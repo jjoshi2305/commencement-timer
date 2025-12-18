@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #203864;
+  background: #CC252C;
   color: #ffffff;
 }
 
@@ -35,12 +35,13 @@ body {
 
 <div class="container">
   <div class="header">Commencement</div>
-  <div class="header">2025–2026</div>
+  <div class="header">Spring-2026</div>
   <div id="timer"></div>
 </div>
 
 <script>
-const targetDate = new Date(2026, 6, 31, 23, 59, 59).getTime();
+const targetDate = new Date(2026, 1, 2, 23, 59, 59).getTime();
+
 
 setInterval(() => {
   const now = new Date().getTime();
@@ -61,3 +62,4 @@ setInterval(() => {
 
 </body>
 </html>
+
